@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test tests/demo.spec.js --headed"
+
+     "Headless": "npx playwright test",
+     "Header": "npx playwright test --headed",
+     "Tags": "npx playwright test --grep @Login"
   },
   "keywords": [],
   "author": "",

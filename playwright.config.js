@@ -23,7 +23,7 @@ const config = {
     browserName : 'chromium',
     baseURL : 'https://www.mytheresa.com/int_en/men.html',
 
-    headless : false,
+   // headless : false,
     //baseURL: process.env.Prod === '1' ? 'https://www.mytheresa.com/int_en/men.html' : 'https://test.mytheresa.com/en-de/men.html' : 'https://staging.mytheresa.com/en-de/men.html': 'https://local.mytheresa.com/en-de/men.html',
    // viewport : {width: 720, height: 720},
     screenshot : 'on',
@@ -35,7 +35,7 @@ const config = {
 use: {
 
   browserName : 'firefox',
-  headless : false,
+  //headless : false,
  // viewport : {width: 720, height: 720},
   screenshot : 'on',
   trace : 'on',//off,on
@@ -46,7 +46,7 @@ use: {
 use: {
 
   browserName : 'webkit',
-  headless : false,
+  //headless : false,
   screenshot : 'on',
   trace : 'on',//off,on
   },
