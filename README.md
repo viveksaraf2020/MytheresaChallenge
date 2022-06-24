@@ -28,4 +28,7 @@ Issue observed - After logged in or after invalid login i can see page is not lo
 Solution -1 case-
 With the API integration of PlayWright package i can do the 1st case where i need to capture the status code and validate.
 
+Solution -3 case-
+There is a feature in Playwright where we can create list easily and make a CSV file with details.
+
 
